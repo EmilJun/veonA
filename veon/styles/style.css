@@ -130,7 +130,7 @@ div.headerBlock > .iconBlock >a > img{
 
 
 .logContent{
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 80px;
 }
 .logContent input{
@@ -145,7 +145,18 @@ div.headerBlock > .iconBlock >a > img{
 	border: 1px solid #ccc;
 	padding: 40px 20px;
 }
-
+.dataFilterBlock > div{
+	padding-left: 0 !important;
+}
+.dataFilterBlock >div >a{
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ccc;
+}
+.dataFilterBlock >div >input{
+	border: 1px solid #ccc;
+}
 /* table html*/
 .tableHtml th{
 	cursor: pointer;
@@ -242,8 +253,9 @@ body {
   margin-bottom: 260px;
 }
 footer{
+	position: relative;
 	padding: 15px;
-	    bottom: 0;
+	bottom: 0;
     width: 100%;
 	background: #2c3843;
 }

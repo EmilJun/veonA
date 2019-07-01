@@ -47,25 +47,41 @@
    </header>
   </div>
    <!-- header -->
+   <!-- table -->
+   
    <div class="headerBlock col-12">
      <div class="iconBlock col-2">
       <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Beeline_logo.jpg"></a>
      </div>
    </div>
-   <div class="row d-flex justify-content-center logContent">
-   	 <table border="0" class="col-8 tableHtml table table-bordered">
-         <tr>
-             <th>anun</th>
-             <th>azganun</th>
-             <th>herazosi hamar</th>
-             <th id="gumar">partki gumar</th>
-          </tr>
-     </table>
-   </div>
-
+   <!-- data -->
+   <div class="container"></div>
+       <div class="row dataFilterBlock">
+          <div class="col-2"></div>
+          <div class="col-8">
+             <label>skizb:</label>
+             <input type="text" name="birthday" value="10/24/1984" />
+             <label>verj:</label>
+             <input type="text" name="birthday" value="10/24/1994" />
+             <a href="#" class="fa fa-search"></a>
+          </div>
+          <div class="col-2"></div>
+       </div>
+       <div class="row d-flex justify-content-center logContent">
+   	     <table border="0" class="col-8 tableHtml table table-bordered">
+             <tr>
+                 <th>anun</th>
+                 <th>azganun</th>
+                 <th>herazosi hamar</th>
+                 <th id="gumar">partki gumar</th>
+             </tr>
+         </table>
+       </div>
+    </div>
+<!-- table -->
    
 
-  <footer id="footer" class="footer navbar-fixed-bottom"><!--Footer-->
+  <footer id="footer" class="footer navbar-fixed-bottom row-fluid"><!--Footer-->
     <div class="footer-bottom">
         <div class="container-fluid">
             <div class="row">
@@ -131,5 +147,12 @@
   <script type="text/javascript" src="js/search.js"></script>
   <script type="text/javascript" src="js/table.js" defer></script>
   <script type="text/javascript" src="js/lang.js" defer></script>
+  <script type="text/javascript" src="js/dataFilter.js"></script>
+  
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
 </body>
 </html>
